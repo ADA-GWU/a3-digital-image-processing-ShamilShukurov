@@ -1,6 +1,6 @@
 Assignment 3 by Shamil Shukurov
 
-chemical.py
+**chemical.py**
 
 This python file contains source code for cleaning chemical element images.
 
@@ -36,4 +36,13 @@ As you may see GaussianBlur is worst and ThresholdedBilateral is best case among
 Since chemical elements contains lines (vertical, horizontal, diagonal) I tried to apply opening and closing with line:
 ![inchi1](https://github.com/ADA-GWU/a3-digital-image-processing-ShamilShukurov/assets/81254972/5061bc5c-b84e-4658-877a-978533c15762)
 
+**speckle.py**
+
+This python file contains source code for cleaning images with speckle noise.
+
+Usage: ```python3 chemical.py <folder_path>``` or just ```python3 chemical.py```
+
+```folder_path``` is path to the folder where noisy chemical element images are saved. If folder path is not specified, default folderpath is ```'noisy\speckle'```
+Program cleans the noisy images in the specified path with 2 different approaches and saves them in the folder ```'cleaned_images\speckle'```
+![image](https://github.com/ADA-GWU/a3-digital-image-processing-ShamilShukurov/assets/81254972/7feaa2fb-bf7b-4acb-9bf0-1b200ae96fa2)
 
