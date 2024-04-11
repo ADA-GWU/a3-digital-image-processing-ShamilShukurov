@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 import sys
 import os
 
-folder_path = 'noisy\speckle'
-clean_image_path = 'cleaned_images\speckle'
+folder_path = 'noisy/speckle'
+clean_image_path = 'cleaned_images/speckle'
 
 def remove_speckle(img):
     denoised_image1 = cv2.medianBlur(img, 5)
