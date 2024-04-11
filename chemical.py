@@ -4,10 +4,10 @@ from matplotlib import pyplot as plt
 import sys
 import os
 
-folder_path = 'noisy\chemical'
-clean_image_path = 'cleaned_images\chemical'
+folder_path = 'noisy/chemical'
+clean_image_path = 'cleaned_images/chemical'
 
-imgfp = 'noisy\chemical\inchi1.png'
+imgfp = 'noisy/chemical/inchi1.png'
 
 
 #============================================== Analysis of different methods ==============================================
