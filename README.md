@@ -53,3 +53,12 @@ This python file contains source code for task 3.
 Usage: ```python3 rsna.py <image_filepath>```
 
 ```image_filepath``` is path to the ```.dcm``` file. Program prints the metadata of the dicom file and plots the pixel array of it.
+
+
+**rsna_updated.py**
+
+Usage: ```python3 rsna_updated.py```
+
+Updated version of rsna task. You can now use slider to see different slices of dicom images.
+![image](https://github.com/ADA-GWU/a3-digital-image-processing-ShamilShukurov/assets/81254972/7a1dc2c6-236f-46cd-a8ff-914c4c969927)
+
